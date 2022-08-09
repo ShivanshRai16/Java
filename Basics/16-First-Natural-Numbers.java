@@ -5,5 +5,12 @@ public class Practice2 {
             System.out.println(i);
             i++;
         }
+        
+        // Using do while loop
+        int a = 0;
+        do {
+            System.out.println(a);
+            a++;
+        } while (a<5);
     }
 }
