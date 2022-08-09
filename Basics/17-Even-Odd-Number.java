@@ -17,5 +17,19 @@ public class Practice2 {
         for (int i=0; i<num; i++){
             System.out.println(2*i);
         }
+
+        // Reverse Order
+        System.out.println("Reverse order.");
+        // Odd numbers
+        System.out.println("Odd numbers are : ");
+        for (int i=num; i!=0; i--){
+            System.out.println(2*i+1);
+        }
+
+        // Even number
+        System.out.println("Even numbers are : ");
+        for (int i=num; i!=0; i--){
+            System.out.println(2*i);
+        }
     }
 }
