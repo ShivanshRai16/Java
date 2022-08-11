@@ -16,5 +16,15 @@ public class Practice2 {
             System.out.print(" = ");
             System.out.println(mul);
         }
+        
+        System.out.println("Table in reverse order : ");
+        for (int i=10; i>=0; i--){
+            int mul = num * i;
+            System.out.print(num); 
+            System.out.print(" x ");
+            System.out.print(i);
+            System.out.print(" = ");
+            System.out.println(mul);
+        }
     }
 }
