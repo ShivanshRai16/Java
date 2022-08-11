@@ -15,6 +15,7 @@ public class Practice2 {
             System.out.print(i);
             System.out.print(" = ");
             System.out.println(mul);
+            // System.out.printf("%d X %d = %d\n", n, i, n*i);
         }
         
         System.out.println("Table in reverse order : ");
@@ -25,6 +26,7 @@ public class Practice2 {
             System.out.print(i);
             System.out.print(" = ");
             System.out.println(mul);
+            // System.out.printf("%d X %d = %d\n", n, i, n*i);
         }
     }
 }
