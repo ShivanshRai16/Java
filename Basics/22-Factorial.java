@@ -9,9 +9,21 @@ public class Practice2 {
 
         System.out.println("Numbers are : ");
         int fac = 1;
+        
+        // Using for loop
         for (int i=1; i<=num; i++){
             System.out.println(i);
             fac = fac * i;
+        }
+        System.out.println("Factorial is : ");
+        System.out.println(fac);
+        
+        // Using while loop
+        int i=1;
+        while(i<=num){
+            System.out.println(i);
+            fac = fac * i;
+            i++;
         }
         System.out.println("Factorial is : ");
         System.out.println(fac);
