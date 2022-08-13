@@ -20,5 +20,10 @@ public class Practice2 {
         for (int i=marks.length-1; i>=0; i--){ // Array is from 0 to (n-1)
             System.out.println(marks[i]);
         }
+        
+        System.out.println("Content of array using for each loop : ");
+        for (int element: marks){
+            System.out.println(element);
+        }
     }
 }
