@@ -1,6 +1,7 @@
 public class Practice2 {
     public static void main(String[] args) {
         // Three ways to create array
+        // Int Datatype 
         // Basic Declaration
         int [] marks;
         marks = new int[5];
@@ -23,5 +24,27 @@ public class Practice2 {
         // Declaration + initialization
         int [] marks2 = {100, 80, 60, 40, 20};
         System.out.println(marks2[4]);
+        
+        // String Data Type
+        String [] name;
+        name = new String[5];
+        name[0] = "Shivansh";
+        name[1] = "Rohan";
+        name[2] = "Shivam";
+        name[3] = "Aditya";
+        name[4] = "Shilpa";
+        System.out.println(name.length);
+        System.out.println(name[0]);
+        
+        // Float Data Type
+        float [] mark;
+        mark = new float[5];
+        mark[0] = 100;
+        mark[1] = 80.4f;
+        mark[2] = 60.8f;
+        mark[3] = 40.3f;
+        mark[4] = 20.2f;
+        System.out.println(mark.length);
+        System.out.println(mark[3]);
     }
 }
