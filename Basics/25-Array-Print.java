@@ -17,7 +17,7 @@ public class Practice2 {
             }
 
         System.out.println("Content of array in reverse order : ");
-        for (int i=marks.length-1; i>=0; i--){
+        for (int i=marks.length-1; i>=0; i--){ // Array is from 0 to (n-1)
             System.out.println(marks[i]);
         }
     }
