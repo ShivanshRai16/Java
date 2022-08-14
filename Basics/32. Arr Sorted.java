@@ -20,7 +20,7 @@ public class Practice2 {
         }
 
         System.out.println("\nElement sorted or not :-");
-        for (int i=0; i<num.length-1; i++){
+        for (int i=0; i<num.length-1; i++){ // Last element should not be compared to next so -1 is used
             if(num[i]>num[i+1]){
                 isSorted = false;
                 break;
