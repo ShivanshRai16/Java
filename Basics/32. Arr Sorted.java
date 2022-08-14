@@ -4,7 +4,7 @@ public class Practice2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int [] num;
-        boolean isSorted = true;
+        boolean isSorted = true; // It is assumed that array is already sorted.
         num = new int[5];
 
         System.out.println("Enter the elements :- ");
