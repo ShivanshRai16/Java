@@ -29,3 +29,17 @@ public class Practice2 {
         System.out.println(c1); 
     }
 }
+
+
+
+// Void method does not need to have a return type.
+public class Practice2 {
+    static void telljoke(){
+        System.out.println("I invented a new word! " +
+                            "Plagiarism!");
+    }
+
+    public static void main(String[] args) {
+        telljoke();
+    }
+}
