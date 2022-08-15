@@ -67,7 +67,8 @@ public class Practice2 {
         // System.out.println("The value of x after running change is : " + x);
 
         // Case 2: Changing the array
-        change2(marks);
+        change2(marks); // Here reference is passed that is why its value changes.
+                        // Not the copy of the object is being passed.
         System.out.println("The value of x after running change is: " + marks[0]);
     }
 }
