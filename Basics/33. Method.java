@@ -43,3 +43,19 @@ public class Practice2 {
         telljoke();
     }
 }
+
+
+
+// In case of array if we change the value it get changes.
+public class Practice2 {
+    static void change(int a){
+        a = 90;
+    }
+
+    public static void main(String[] args) {
+        int [] marks = {52, 33, 65, 89, 55};
+        int x = 45;
+        change(x);
+        System.out.println("The value of x after running change is : " + x);
+    }
+}
