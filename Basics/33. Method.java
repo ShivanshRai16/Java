@@ -48,14 +48,26 @@ public class Practice2 {
 
 // In case of array if we change the value it get changes.
 public class Practice2 {
-    static void change(int a){
-        a = 90;
+    // Case 1: changing the integer
+    // static void change(int a){
+    //     a = 90;
+    // }
+
+    // Case 2: Changing the array
+    static void change2(int [] arr){
+        arr[0] = 90;
     }
 
     public static void main(String[] args) {
         int [] marks = {52, 33, 65, 89, 55};
-        int x = 45;
-        change(x);
-        System.out.println("The value of x after running change is : " + x);
+
+        // Case 1: changing the integer
+        // int x = 45;
+        // change(x);
+        // System.out.println("The value of x after running change is : " + x);
+
+        // Case 2: Changing the array
+        change2(marks);
+        System.out.println("The value of x after running change is: " + marks[0]);
     }
 }
