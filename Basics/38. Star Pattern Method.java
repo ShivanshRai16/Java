@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Practice2 {
     static int pattern(int x){
-        for (int i=x; i>0; i--){
-            for (int j=0; j<i; j++){
+        for (int i=x; i>0; i--){   // for (int i=0; i<x; i++)
+            for (int j=0; j<i; j++){  // for (int j=x; j>i; j--)
                 System.out.print("* ");
             }
             System.out.println("");
