@@ -25,3 +25,14 @@ public class Practice2 {
         Pattern(n);
     }
 }
+
+/*
+Enter the number to print its star : 
+5
+The patten is : 
+* 
+* *
+* * *
+* * * *
+* * * * *
+*/
