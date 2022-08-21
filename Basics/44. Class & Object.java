@@ -44,3 +44,58 @@ public class Practice2{
         System.out.println(salary2);
     }
 }
+
+
+// Similar Type
+class Employee{
+    int age;
+    int salary;
+    String name;
+
+    public void age(){
+        System.out.println("The age is : " + age);
+    }
+
+    public void getSalary(){
+        System.out.println("The salary is : " + salary);
+    }
+
+    public void getName(){
+        System.out.println("The name is : " + name);
+    }
+
+    // public String getName(){
+    //     return name;
+    // }
+    
+    // public void setName(String n){
+    //     name = n;
+    // }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Employee Dave = new Employee();
+        Employee John = new Employee();
+
+        Dave.age = 25;
+        Dave.salary = 25;
+        Dave.name = "Dave S";
+        // Dave.setName("Dave S");
+        // System.out.println(Dave.getName());
+
+        John.age = 22;
+        John.salary = 35;
+        John.name = "John W";
+
+        Dave.getName();
+        Dave.age();
+        Dave.getSalary();
+
+        System.out.println("");
+
+        John.getName();
+        John.age();
+        John.getSalary();
+    }
+}
