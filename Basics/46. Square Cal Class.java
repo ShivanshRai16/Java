@@ -1,3 +1,4 @@
+// SQUARE
 class Square{
     int dim;
     int ar;
@@ -32,5 +33,46 @@ public class Practice2{
 
         // side.par();
         System.out.println(side.par());
+    }
+}
+
+
+// RECTANGLE
+class Rectangle{
+    int length;
+    int breath;
+    int ar;
+    int para;
+
+    public void dim(int l, int b){
+        length = l;
+        breath = b;
+        System.out.println("The length of rectangle is : " + l);
+        System.out.println("The breath of rectangle is : " + b);
+    }
+
+    public int area(){
+        System.out.print("The area of rectangle is : ");
+        ar = length * breath;
+        return ar;
+    }
+
+    public int parameter(){
+        System.out.print("The parameter of rectangle is : ");
+        para = 2 * (length + breath);
+        return para;
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Rectangle val = new Rectangle();
+
+        val.dim(10, 5);
+        // System.out.println(val.dim());
+
+        System.out.println(val.area());
+
+        System.out.println(val.parameter());
     }
 }
