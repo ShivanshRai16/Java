@@ -46,7 +46,7 @@ public class Practice2{
 }
 
 
-// Similar Type
+// Similar Type Creating class with methods.
 class Employee{
     int age;
     int salary;
