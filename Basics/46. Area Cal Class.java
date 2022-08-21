@@ -76,3 +76,40 @@ public class Practice2{
         System.out.println(val.parameter());
     }
 }
+
+
+// CIRCLE
+class Circle{
+    float r;
+    float ar;
+    float para;
+
+    public void r(){
+        System.out.println("The radius of the circle is : " + r);
+    }
+
+    public float area(){
+        System.out.print("The area of the circle is : ");
+        ar = 3.14f * r * r;
+        return ar;
+    }
+
+    public float para(){
+        System.out.print("The parameter of the circle is : ");
+        para = 2 * 3.14f * r;
+        return para;
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Circle val = new Circle();
+
+        val.r = 5;
+        val.r();
+
+        System.out.println(val.area());
+
+        System.out.println(val.para());
+    }
+}
