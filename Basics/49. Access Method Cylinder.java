@@ -1,3 +1,5 @@
+// Cylinder
+// Normal way
 class cylinder{
     private int radius;
     private int height;
