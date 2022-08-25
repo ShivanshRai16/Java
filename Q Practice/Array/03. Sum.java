@@ -3,7 +3,7 @@ public class Practice3{
         int sum = arr[0];
 
         for (int i:arr){
-            sum = sum + i;
+            sum = sum + arr[i];
         }
         System.out.println("The sum is : " + sum);
 
