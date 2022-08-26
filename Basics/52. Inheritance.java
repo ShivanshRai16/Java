@@ -42,3 +42,41 @@ public class Practice2{
         System.out.println(d.getY());
     }
 }
+
+
+// Using String
+class Animals{
+    String cat;
+
+    public String getCat() {
+        return cat;
+    }
+
+    public void setCat(String cat) {
+        this.cat = cat;
+    }
+}
+
+class dog extends Animals{
+    String dog;
+
+    public String getDog() {
+        return dog;
+    }
+
+    public void setDog(String dog) {
+        this.dog = dog;
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Animals meow = new Animals();
+        meow.setCat("Meow....");
+        System.out.println(meow.getCat());
+
+        dog bark = new dog();
+        bark.setDog("bark....");
+        System.out.println(bark.getDog());
+    }
+}
