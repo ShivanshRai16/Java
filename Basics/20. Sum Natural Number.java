@@ -27,5 +27,12 @@ public class Practice2 {
         }
         System.out.println("Sum of the n even number is : ");
         System.out.println(sum);
+        
+        // Using For loop
+        for (int i=1; i<=num; i++){
+            sum = sum + i;
+        }
+        System.out.println("The sum is : ");
+        System.out.println(sum);
     }
 }
