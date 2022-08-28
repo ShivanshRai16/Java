@@ -12,6 +12,7 @@ interface HornBicycle{
 }
 
 class AvonCycle implements Bicycle, HornBicycle{
+    // public int = 5; overriting taking place.
     void blowHorn(){
         System.out.println("Pee Poo");
     }
