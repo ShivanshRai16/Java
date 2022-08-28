@@ -1,13 +1,13 @@
 // More than one classs is difficult to extend so interface is created
 interface Bicycle{
     int a = 45;
-    void applyBrake(int Decrement);
+    void applyBrake(int Decrement); // It is mandatory to implement this method.
     void speedUp(int increment);
 }
 
 interface HornBicycle{
     int x = 45;
-    void blowHornK3g();
+    void blowHornK3g(); 
     void blowHornmhn();
 }
 
