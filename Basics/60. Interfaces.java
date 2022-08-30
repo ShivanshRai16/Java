@@ -48,31 +48,3 @@ public class Practice2{
         cycle.blowHornmhn();
     }
 }
-
-
-// Interfaces Example
-interface Camera{
-    void takeSnap();
-    void recordVideo();
-}
-
-interface wifi{ // Body cannot be formed in interface.
-    String[] getNetwork();
-    void connecttoNetwork(String network);
-}
-
-class MyCellPhone{
-    void callNumber(int phoneNumber){
-        System.out.println("Calling " + phoneNumber);
-    }
-
-    void pickCall(){
-        System.out.println("Connecting...");
-    }
-}
-
-public class Practice2{
-    public static void main(String[] args) {
-        
-    }
-}
