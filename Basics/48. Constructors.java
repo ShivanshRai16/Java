@@ -3,6 +3,7 @@ class Employee{
     private String name;
 
     // Constructer
+    // Member funcation used to initialize an object while creating it.
     public Employee(){
         id = 45;
         name = "Your name here";
