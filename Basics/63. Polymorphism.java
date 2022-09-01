@@ -82,3 +82,59 @@ public class Practice2{
         cam.takeSnap();
     }
 }
+
+
+// Polymorphism Example
+class Monkey{
+    public void jump(){
+        System.out.println("Jumping...");
+    }
+
+    public void bite(){
+        System.out.println("Bitting...");
+    }
+}
+
+interface BasicAnimal{
+    public void eat();
+    public void sleep();
+}
+
+class Human extends Monkey implements BasicAnimal{
+    public void speak(){
+        System.out.println("Speaking...");
+    }
+
+    public void look(){
+        System.out.println("Looking...");
+    }
+
+    @Override
+    public void eat(){
+        System.out.println("Eating...");
+    }
+
+    @Override
+    public void sleep(){
+        System.out.println("Sleeping...");
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Human sc = new Human();
+        sc.eat();
+        sc.sleep();
+        sc.look();
+
+        Monkey m1 = new Human();
+        m1.jump();
+        m1.bite();
+        // m1.speak(); --> Cannot use speak method because the reference is monkey which does not have speak method
+
+        BasicAnimal lovish = new Human();
+        // lovish.speak(); --> error
+        lovish.eat();
+        lovish.sleep();
+    }
+}
