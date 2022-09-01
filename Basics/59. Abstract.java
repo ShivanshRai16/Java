@@ -13,7 +13,7 @@ abstract class Parent{ // Using this class other class will be formed.
     }
 
     // Abstract
-    abstract public void greet(); // Declare things as per your need.
+    abstract public void greet(); // Declare things later as per your need.
     abstract public void greet1();
 
 }
