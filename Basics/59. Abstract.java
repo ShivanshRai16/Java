@@ -43,3 +43,35 @@ public class Practice2{
 
     }
 }
+
+
+// Abstract Example
+abstract class Pen{
+    abstract void write();
+    abstract void refill();
+}
+
+class FountainPen extends Pen{
+    @Override
+    public void write(){
+        System.out.println("Wrting...");
+    }
+
+    @Override
+    public void refill(){
+        System.out.println("Refilling...");
+    }
+
+    public void ChangNib(){
+        System.out.println("Changing the nib...");
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        FountainPen pen = new FountainPen();
+        pen.ChangNib();
+        pen.refill();
+    }
+}
+
