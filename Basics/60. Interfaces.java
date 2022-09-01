@@ -48,3 +48,49 @@ public class Practice2{
         cycle.blowHornmhn();
     }
 }
+
+
+// Interface Example
+class Monkey{
+    public void jump(){
+        System.out.println("Jumping...");
+    }
+
+    public void bite(){
+        System.out.println("Bitting...");
+    }
+}
+
+interface BasicAnimal{
+    public void eat();
+    public void sleep();
+}
+
+class Human extends Monkey implements BasicAnimal{
+    public void speak(){
+        System.out.println("Speaking...");
+    }
+
+    public void look(){
+        System.out.println("Looking...");
+    }
+
+    @Override
+    public void eat(){
+        System.out.println("Eating...");
+    }
+
+    @Override
+    public void sleep(){
+        System.out.println("Sleeping...");
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        Human sc = new Human();
+        sc.eat();
+        sc.sleep();
+        sc.look();
+    }
+}
