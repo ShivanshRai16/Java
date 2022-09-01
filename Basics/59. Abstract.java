@@ -37,7 +37,7 @@ abstract class Child2 extends Parent{
 
 public class Practice2{
     public static void main(String[] args) {
-        // Parent p = new Parent();  // Error because abstract class.
+        // Parent p = new Parent();  // Error because it is an abstract class and can not be implemented.
         // Child2 c = new Child2();  // same error
         Child c = new Child();
 
