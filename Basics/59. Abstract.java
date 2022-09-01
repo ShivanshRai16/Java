@@ -18,7 +18,7 @@ abstract class Parent{ // Using this class other class will be formed.
 
 }
 
-class Child extends Parent{
+class Child extends Parent{ // Implement all the abstract classes.
     @Override
     public void greet(){ // greet method overriden.
         System.out.println("Good Morning.");
