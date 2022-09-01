@@ -35,3 +35,47 @@ public class Practice2{
         sc.meth4();
     }
 }
+
+
+// Example
+interface TVRemote{
+    public void on();
+    public void off();
+}
+
+interface SmartTVRemote extends TVRemote{
+    public void change();
+    public void volume();
+}
+
+class TV implements SmartTVRemote{
+    @Override
+    public void on(){
+        System.out.println("TV ON...");
+    }
+
+    @Override
+    public void off(){
+        System.out.println("TV OFF...");
+    }
+
+    @Override
+    public void change(){
+        System.out.println("Changing channel...");
+    }
+
+    @Override
+    public void volume(){
+        System.out.println("Changing Volume...");
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        TV t = new TV();
+        t.change();
+        t.volume();
+        t.off();
+        t.on();
+    }
+}
