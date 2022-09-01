@@ -138,3 +138,35 @@ public class Practice2{
         lovish.sleep();
     }
 }
+
+
+// Polymorphism Example 2
+abstract class TelePhone{
+    abstract void ring();
+    abstract void lift();
+    abstract void disconnect();
+}
+
+class SmartTelePhone extends TelePhone{
+    @Override
+    public void ring(){
+        System.out.println("Phone Ringing...");
+    }
+
+    @Override
+    public void lift(){
+        System.out.println("Lifting phone...");
+    }
+
+    @Override
+    public void disconnect(){
+        System.out.println("Disconnected phone...");
+    }
+}
+
+public class Practice2{
+    public static void main(String[] args) {
+        SmartTelePhone t = new SmartTelePhone();
+        t.ring();
+    }
+}
