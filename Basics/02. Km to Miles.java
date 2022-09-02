@@ -1,4 +1,4 @@
-import java.util.Scanner; // Inbiuld packages
+import java.util.Scanner; // Inbuild packages
 
 public class Practice2 {
     public static void main(String[] args) {
