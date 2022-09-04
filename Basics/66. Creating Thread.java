@@ -37,3 +37,30 @@ public class Practice2{
  * Turn by turn execution will take place of the thread.\
  * In normal it will execute first thread after its exection only next thread will be executed.
  */
+
+
+class MyThr extends Thread{
+    public void run(){
+        while(true){
+            System.out.println("Good Morning");
+        }
+    }
+}
+
+class MyThr1 extends Thread{
+    public void run(){
+        while(true){
+            System.out.println("Welcome");
+        }
+    }
+}
+
+public class Practice3{
+    public static void main(String[] args) {
+        MyThr obj = new MyThr();
+        MyThr1 obj1 = new MyThr1();
+
+        obj.start();
+        obj1.start();
+    }
+}
