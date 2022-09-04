@@ -8,6 +8,7 @@ class MyThr extends Thread{
         while(true){
 //          System.out.println("I am a thread");
             System.out.println("Thank You!" + this.getName());
+            System.out.println("Priority " + this.getPriority()); // This is to check priority.
        }
     }
 }
