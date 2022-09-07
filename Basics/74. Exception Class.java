@@ -47,3 +47,19 @@ public class Practice2{
         }
     }
 }
+
+
+// Basic Exception example
+public class Practice2{
+    public static void main(String[] args) {
+        try{
+            int a = 66/0; // change the value and accordingly the result will change.
+        }
+        catch(IllegalArgumentException e){
+            System.out.println("HeHe");
+        }
+        catch(ArithmeticException a){
+            System.out.println("HaHa");
+        }
+    }
+}
