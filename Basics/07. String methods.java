@@ -39,5 +39,8 @@ public class Practice2{
         System.out.println(name.equalsIgnoreCase("HarRY"));
 
         System.out.println("I am escape sequence\tdouble quote");
+        
+        String out2 = s.substring(start, end);
+        System.out.println(out2);
     }
 }
